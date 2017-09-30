@@ -1,0 +1,11 @@
+plugins {
+    id "java"
+}
+
+group 'org.overmind.jenkins-pipeline-example'
+version '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '3.5'
+}
